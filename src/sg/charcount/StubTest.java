@@ -58,7 +58,7 @@ public class StubTest {
 	@Test
 	public void testMapper() {
 
-		mapDriver.
+//		mapDriver.
 		/*
 		 * For this test, the mapper's input will be "1 cat cat dog" TODO:
 		 * implement
