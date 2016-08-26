@@ -40,8 +40,8 @@ public class NWDriver {
 		// job.setInputFormatClass(FixedLengthInputFormat.class);
 		// FixedLengthInputFormat.setRecordLength(conf, 15);
 
-		FileInputFormat.addInputPath(job, new Path(args[0]));
-		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		FileInputFormat.addInputPath(job, new Path(args[1]));
+		FileOutputFormat.setOutputPath(job, new Path(args[2]));
 
 		boolean result = true;
 		try {
