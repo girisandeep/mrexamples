@@ -7,5 +7,5 @@ cd mrexamples/
 
 ant jar
 
-hadoop jar MR.jar my.StubDriver /data/mr/wordcount/input javamrout
+hadoop jar build/jar/MR.jar my.StubDriver /data/mr/wordcount/input javamrout
 
