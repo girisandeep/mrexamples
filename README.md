@@ -9,13 +9,13 @@ hadoop jar build/jar/MR.jar my.StubDriver /data/mr/wordcount/input javamrout
 
 # Hive Example
 
-## Compile and build the jar
+## 1. Compile and build the jar
 `ant hiveudfjar`
 
-## Start Hive
+## 2. Start Hive
 `hive`
 
-## On the hive prompt execute
+## 3. On the hive prompt execute
 ~~~~
 add jar build/jar/kbdexamples.jar
 create temporary function my_lower as 'hiveudf.Lower';
