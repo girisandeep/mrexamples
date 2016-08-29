@@ -1,6 +1,6 @@
 # Map Reduce Example
 ~~~~
-These are the examples of Map-Reduce
+## These are the examples of Map-Reduce
 git clone https://github.com/girisandeep/mrexamples.git
 cd mrexamples/
 ant jar
