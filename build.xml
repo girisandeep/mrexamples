@@ -23,8 +23,19 @@
         </jar>
     </target>
 
+	<target name="hiveudfcompile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" classpathref="classpath"/>
+    </target>
+
+	<target name="hiveudfjar" depends="hiveudfcompile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/kbdexamples.jar" basedir="build/classes">
+        </jar>
+    </target>
+
     <target name="run">
         <java jar="build/jar/MR.jar" fork="true"/>
     </target>
-
+	
 </project>
