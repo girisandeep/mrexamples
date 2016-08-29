@@ -8,6 +8,6 @@ public final class Lower extends UDF {
 		if (s == null) {
 			return null;
 		}
-		return new Text(s.toString().toLowerCase());
+		return new Text("::" + s.toString().toLowerCase() + "::");
 	}
 }
