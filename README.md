@@ -18,8 +18,11 @@ ant hiveudfjar
 hive
 
 ## On the hive prompt execute
+~~~~
 add jar build/jar/kbdexamples.jar
 
 create temporary function my_lower as 'hiveudf.Lower';
 
 select my_lower('sandeeGGGGGHHHkkp');
+	
+~~~~
